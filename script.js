@@ -56,3 +56,5 @@ function slide(side) {
 
 leftArrow.addEventListener("click", () => slide("left"));
 rightArrow.addEventListener("click", () => slide("right"));
+
+
