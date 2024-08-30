@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empower Youth Initiative</title>
     <link rel="stylesheet" href="index.css">
@@ -13,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#home">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/Logo.png" alt="Logo" class="logo"> Empower Youth Initiative
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +23,22 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="#home">Home</a>
+                            <a class="nav-link" href="who-we-are.html">Who We Are</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="#about">About Us</a>
+                            <a class="nav-link" href="#what-we-do">What We Do</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="#get-involved">Get Involved</a>
+                            <a class="nav-link" href="#where-we-work">Where We Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#latest">Latest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how-to-help">How To Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-warning text-dark" href="#donate">Donate</a>
                         </li>
                     </ul>
                 </div>
@@ -40,62 +50,54 @@
     <div id="home" class="landing-page">
         <div class="hero-content">
             <h1>Welcome to Empower Youth Initiative!</h1>
-            <p>We’re glad you’re here. Explore our site and see how you can get involved.</p>
+            <p>Empowering youth to transform their communities and build a brighter future.</p>
         </div>
     </div>
 
     <main class="container my-5">
-        <!-- About Us Section -->
-        <section id="about" class="mb-5">
-            <h2 class="section-heading text-center">About Us</h2>
-            <div>
-                <h1>Empower Youth Initiative (EYI)</h1>
-                <p class="motto">Motto: Save Empower Transform</p>
-                <h2>Mission Statement</h2>
-                <p class="mission-statement">Empower Youth Initiative is committed to promoting and facilitating youth attachment to society and community, increasing developmental opportunities for youth, and promoting their well-being. We aim to ameliorate risk factors and provide protective conditions for youth "at risk" and promote public awareness of youth as key drivers of change in South Kivu.</p>
-                <h2>Vision Statement</h2>
-                <p class="vision-statement">The vision of EYI is for every youth to have the opportunity to build their own livelihood in a sustainable economy by adding value to their daily lives through self-discovery.</p>
-            </div>
+        <!-- What We Do Section -->
+        <section id="what-we-do" class="mb-5">
+            <h2 class="section-heading text-center">What We Do</h2>
+            <p>Highlighting our key action areas:</p>
+            <ul>
+                <li>Youth Education and Skills Development</li>
+                <li>Community Engagement and Outreach</li>
+                <li>Advocacy for Youth Rights</li>
+                <li>Economic Empowerment and Support</li>
+            </ul>
         </section>
 
-        <!-- Get Involved Section -->
-        <section id="get-involved" class="mb-5">
-            <h2 class="section-heading text-center">Get Involved</h2>
-            <p class="text-center">Help us break the cycle of dependency!</p>
-            <p class="text-center mb-5">Your contribution enables refugees to help themselves towards a better future on their own terms. Whether it’s going to school, learning a new skill, or making a difference in the community, it's about being able to make their own choices. We hope you choose to help.</p>
-        
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <div class="card border-light shadow-sm">
-                        <img src="images/donate.webp" class="card-img-top" alt="Donate">
-                        <div class="card-body">
-                            <h5 class="card-title">Donate</h5>
-                            <p class="card-text">Your donation helps us provide essential resources and support to refugees, empowering them to build a better future.</p>
-                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card border-light shadow-sm">
-                        <img src="images/volunteer.gif" class="card-img-top" alt="Volunteer">
-                        <div class="card-body">
-                            <h5 class="card-title">Volunteer</h5>
-                            <p class="card-text">Share your time and skills to make a direct impact. Our future looks better with you in it!</p>
-                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#volunteerModal">Get Involved</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card border-light shadow-sm">
-                        <img src="images/fundraise.jpeg" class="card-img-top" alt="Fundraise">
-                        <div class="card-body">
-                            <h5 class="card-title">Fundraise</h5>
-                            <p class="card-text">Organize a fundraiser to support our initiatives. Your efforts can help us make a significant difference.</p>
-                            <a href="fundraising.html" class="btn btn-primary">Start Fundraising</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Where We Work Section -->
+        <section id="where-we-work" class="mb-5">
+            <h2 class="section-heading text-center">Where We Work</h2>
+            <p>We operate primarily out of Nairobi, Kenya, with a strong focus on impacting local communities through our various programs.</p>
+        </section>
+
+        <!-- Latest Section -->
+        <section id="latest" class="mb-5">
+            <h2 class="section-heading text-center">Latest</h2>
+            <p>Stay up-to-date with our latest news, events, and success stories.</p>
+            <!-- Add dynamic content or latest updates here -->
+        </section>
+
+        <!-- How To Help Section -->
+        <section id="how-to-help" class="mb-5">
+            <h2 class="section-heading text-center">How To Help</h2>
+            <p>There are many ways you can get involved and support our mission:</p>
+            <ul>
+                <li>Volunteer your time and skills.</li>
+                <li>Attend an event and show your support.</li>
+                <li>Sponsor a youth to help them achieve their goals.</li>
+                <li>Donate to fund our programs and initiatives.</li>
+                <li>Take action by spreading the word and advocating for youth empowerment.</li>
+            </ul>
+        </section>
+
+        <!-- Donate Section -->
+        <section id="donate" class="mb-5">
+            <h2 class="section-heading text-center">Donate</h2>
+            <p>Your donation makes a significant impact in helping us empower youth and transform communities.</p>
+            <a href="#" class="btn btn-primary">Donate Now</a>
         </section>
     </main>
 
