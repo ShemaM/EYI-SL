@@ -9,7 +9,7 @@ body, html {
 
 /* Landing page background */
 .landing-page {
-  background: url('images/gratitude.jpg') no-repeat center center/cover;
+  background: url('images/gratitude.jpg') repeat center cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -77,4 +77,41 @@ footer {
 .btn-warning:hover {
   background-color: #e0a800;
   border-color: #d39e00;
+}
+.navbar {
+  padding: 0.5rem 1rem;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.landing-page {
+  background: url('images/gratitude.jpg') repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.hero-content p {
+  font-size: 1.25rem;
+}
+.section-heading {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer a {
+  color: #fff;
+}
+.footer a:hover {
+  color: #ddd;
 }
